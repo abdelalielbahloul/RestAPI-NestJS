@@ -1,6 +1,4 @@
 import { Controller, Post, Body } from '@nestjs/common';
-import { Product } from 'src/models/product';
-// import { Observable } from 'rxjs';
 import { ProductService } from './product.service';
 
 @Controller('product')
